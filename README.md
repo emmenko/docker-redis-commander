@@ -11,7 +11,7 @@ A [Docker](https://www.docker.com/) container with
 ```bash
 # run it
 
-$ docker run -it emmenko/redis-commander --help
+$ docker run -it --rm emmenko/redis-commander --help
 Options:
   --redis-port                    The port to find redis on.              [string]
   --redis-host                    The host to find redis on.              [string]
