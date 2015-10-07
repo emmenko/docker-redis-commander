@@ -1,7 +1,9 @@
+http://joeferner.github.io/redis-commander/
+
 A [Docker](https://www.docker.com/) container with
 
 - node 0.12
-- redis-commander
+- [redis-commander](https://www.npmjs.com/package/redis-commander)
 
 > Image tags reflect npm versions of `redis-commander`.
 
