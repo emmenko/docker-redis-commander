@@ -2,7 +2,9 @@ FROM node:0.12
 
 MAINTAINER Nicola Molinari <emmenko@gmail.com>
 
-RUN npm i -g --unsafe-perm --no-optional redis-commander@0.3.2
+ENV REDIS_COMMANDER_VERSION=0.3.2
+
+RUN npm i -g --unsafe-perm --no-optional redis-commander@$REDIS_COMMANDER_VERSION
 
 EXPOSE 8081
 
