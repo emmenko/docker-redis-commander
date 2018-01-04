@@ -1,3 +1,5 @@
+<h1 align="center">This repository is deprecated and not maintained anymore</h1>
+
 http://joeferner.github.io/redis-commander/
 
 A [Docker](https://www.docker.com/) container with
